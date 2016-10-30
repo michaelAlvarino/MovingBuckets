@@ -9,3 +9,4 @@ That means if you have 3 buckets you can move
 2, 1  
 1, 2  
 
+Write some code that simulates moving any x number of buckets.
