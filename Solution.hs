@@ -11,4 +11,4 @@ numOfWaysToMoveBuckets x = sum (map permutations (repTwos (combination x) []))
 fibs :: [Integer]
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 
-realNumWaysToMoveBuckets x = fibs !! n
+realNumWaysToMoveBuckets x = fibs !! x
